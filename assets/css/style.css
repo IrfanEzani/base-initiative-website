@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #866ddd;
+  background:none;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -1618,9 +1618,6 @@ section {
   margin-top: 1.5rem;
 }
 
-footer #footer .footer-inner {
-  
-}
 
 nav .footer-links a.footer-inner {
   background: #866ddd;
