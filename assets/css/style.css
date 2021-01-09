@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background:none;
+  background:white;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
