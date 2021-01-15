@@ -446,6 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 70%;
   }
+  
 }
 
 @media (max-width: 575px) {
@@ -501,7 +502,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #6C63FF;
   display: inline-block;
 }
 
@@ -628,6 +629,7 @@ section {
   padding: 0;
 }
 
+
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
@@ -646,7 +648,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color: #fff;
   float: left;
 }
 
@@ -664,7 +666,7 @@ section {
   margin: 0 0 0 50px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #484848;
+  color: #2F2E41;
 }
 
 .counts .content .count-box a {
@@ -713,7 +715,7 @@ section {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #e1f0fa;
+  background: #beaefa;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -724,7 +726,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #B39EFF;
   right: 0;
   top: 0;
   width: 100%;
@@ -740,7 +742,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #B39EFF;
   transition: all 0.3s ease-in-out;
 }
 
@@ -775,7 +777,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #B39EFF;
 }
 
 /*--------------------------------------------------------------
@@ -848,6 +850,7 @@ section {
   padding: 20px;
   background: #f6f6f6;
   transition: ease-in-out 0.3s;
+  color: #222222;
 }
 
 .features .icon-box i {
@@ -869,12 +872,12 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
-  color: #3498db;
-}
+/* .features .icon-box h3 a:hover {
+} */
 
 .features .icon-box:hover {
-  background: #eef7fc;
+  background:#ddd3ff;
+  color:white;
 }
 
 /*--------------------------------------------------------------
