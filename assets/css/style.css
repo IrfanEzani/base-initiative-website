@@ -841,14 +841,17 @@ section {
   line-height: 1;
   text-transform: uppercase;
   color: #222222;
+  border-bottom: 2px solid lightgray;
+  border-right: 2px solid lightgray;
   margin-bottom: 5px;
+  margin-right: 2px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
 
 .features #features-flters li:hover, .featuresx #features-flters li.filter-active {
-  color: #fff;
-  background: #b39eff;
+  border-bottom: 2px solid #b39eff;
+  border-right: 2px solid #b39eff;
 }
 
 .features #features-flters li:last-child {
@@ -863,11 +866,12 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(34, 34, 34, 0.6);
+  border-radius: 5px;
 }
 
 .features .features-wrap::before {
-  content: "";
-  background: rgba(34, 34, 34, 0.6);
+  background: #beaefa;
+  color: white;
   position: absolute;
   left: 0;
   right: 0;
