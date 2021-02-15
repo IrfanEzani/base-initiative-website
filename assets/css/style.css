@@ -416,6 +416,8 @@ p {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -434,7 +436,7 @@ p {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 10%;
   }
 }
 
@@ -1276,10 +1278,73 @@ section {
 --------------------------------------------------------------*/
 .inner-page {
   height: 100%;
-  margin-top: 1.5rem;
+}
+
+.inner-page .hero-intro {
+  font-family: 'Raleway', sans-serif;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.inner-page .hero-img img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-page .hero-img img {
+    width: 80%;
+  }
+}
+
+.inner-page-infos {
+  background-color:rgb(230,250,233);
+  margin-bottom: 4rem;
+}
+
+.inner-page-infos h2 {
+  color: #444053;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.inner-page-infos #accordion,
+.inner-page-infos #accordion2 {
+  margin: 0 10px;
 }
 
 
+.inner-page-infos #accordion .card-info,
+.inner-page-infos #accordion2 .card-info {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.inner-page-infos #accordion .card-info i,
+.inner-page-infos #accordion2 .card-info i {
+  font-size: 25px;
+  color: #fff;
+  float: left;
+  margin-right: 1rem;
+}
+
+.inner-page-infos #accordion button,
+.inner-page-infos #accordion2 button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color:#444053;
+  color: white;
+}
+
+
+.inner-page-infos #accordion button:hover {
+  background:darkgreen;
+}
+
+
+.inner-page-infos #accordion2 button:hover {
+  background-color: #17B169;
+}
 nav .footer-links a.footer-inner {
   background: #866ddd;
   color: white;
@@ -1393,14 +1458,13 @@ header.masthead .post-heading .meta a {
 }
 
 
-
 .post-preview > a {
   color: #212529;
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #6c57b9;
+  color: rgb(0, 18, 100);
 }
 
 .post-preview > a > .post-title {
@@ -1418,7 +1482,7 @@ header.masthead .post-heading .meta a {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
-  color: #868e96;
+  color: #212529;
 }
 
 .post-preview > .post-meta > a {
@@ -1428,7 +1492,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #b39eff;
+  color: rgb(0, 18, 100);
 }
 
 @media only screen and (min-width: 768px) {
@@ -1450,12 +1514,6 @@ header.masthead .post-heading .meta a {
 .btn-primary {
   background-color: #0085A1;
   border-color: #0085A1;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
 }
 
 .btn-lg {
