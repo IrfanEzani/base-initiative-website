@@ -15,6 +15,14 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Lora", "Times New Roman", sans-serif;
+  line-height: 1.5;
+  margin: 30px 0;
+  font-size: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -408,6 +416,8 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -426,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 10%;
   }
 }
 
@@ -1098,7 +1108,7 @@ section {
   padding-bottom: 20px;
 }
 
-.contact .social-links a {
+.contact .social-links a, .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #fff;
@@ -1114,7 +1124,8 @@ section {
   border: 1px solid #3498db;
 }
 
-.contact .social-links a:hover {
+
+.contact .social-links a:hover, .social-links a:hover {
   background: #866ddd;
   color: #fff;
 }
@@ -1267,12 +1278,245 @@ section {
 --------------------------------------------------------------*/
 .inner-page {
   height: 100%;
-  margin-top: 1.5rem;
+}
+
+.inner-page .hero-intro {
+  font-family: 'Raleway', sans-serif;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.inner-page .hero-img img {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-page .hero-img img {
+    width: 80%;
+  }
+}
+
+.inner-page-infos {
+  background-color:rgb(230,250,233);
+  margin-bottom: 4rem;
+}
+
+.inner-page-infos h2 {
+  color: #444053;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.inner-page-infos #accordion,
+.inner-page-infos #accordion2 {
+  margin: 0 10px;
 }
 
 
+.inner-page-infos #accordion .card-info,
+.inner-page-infos #accordion2 .card-info {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.inner-page-infos #accordion .card-info i,
+.inner-page-infos #accordion2 .card-info i {
+  font-size: 25px;
+  color: #fff;
+  float: left;
+  margin-right: 1rem;
+}
+
+.inner-page-infos #accordion button,
+.inner-page-infos #accordion2 button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color:#444053;
+  color: white;
+}
+
+
+.inner-page-infos #accordion button:hover {
+  background:darkgreen;
+}
+
+
+.inner-page-infos #accordion2 button:hover {
+  background-color: #17B169;
+}
 nav .footer-links a.footer-inner {
   background: #866ddd;
   color: white;
-  
+}
+
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 150px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 2.7rem;
+    font-weight: 900;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.8rem;
+  }
+}
+
+
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: rgb(0, 18, 100);
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: rgb(0, 18, 100);
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #0085A1;
+  border-color: #0085A1;
+}
+
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px;
 }
