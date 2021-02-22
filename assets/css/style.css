@@ -1316,7 +1316,13 @@ section {
 .inner-page-infos #accordion .card-info {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
+.inner-page-infos #accordion ul {
+  list-style: none 
+}
 
+.inner-page-infos #accordion ul li::marker {
+  content:"👉 ";
+}
 .inner-page-infos #accordion .card-info i {
   font-size: 25px;
   color: #fff;
