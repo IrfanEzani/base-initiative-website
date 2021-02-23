@@ -1303,32 +1303,34 @@ section {
 }
 
 .inner-page-infos h2 {
-  color: #444053;
+  color: black;
   text-align: center;
   margin-bottom: 5%;
 }
 
-.inner-page-infos #accordion,
-.inner-page-infos #accordion2 {
+.inner-page-infos #accordion {
   margin: 0 10px;
 }
 
 
-.inner-page-infos #accordion .card-info,
-.inner-page-infos #accordion2 .card-info {
+.inner-page-infos #accordion .card-info {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
+.inner-page-infos #accordion ul {
+  list-style: none 
+}
 
-.inner-page-infos #accordion .card-info i,
-.inner-page-infos #accordion2 .card-info i {
+.inner-page-infos #accordion ul li::marker {
+  content:"👉 ";
+}
+.inner-page-infos #accordion .card-info i {
   font-size: 25px;
   color: #fff;
   float: left;
   margin-right: 1rem;
 }
 
-.inner-page-infos #accordion button,
-.inner-page-infos #accordion2 button{
+.inner-page-infos #accordion button {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1338,13 +1340,9 @@ section {
 
 
 .inner-page-infos #accordion button:hover {
-  background:darkgreen;
+  background:black;
 }
 
-
-.inner-page-infos #accordion2 button:hover {
-  background-color: #17B169;
-}
 nav .footer-links a.footer-inner {
   background: #866ddd;
   color: white;

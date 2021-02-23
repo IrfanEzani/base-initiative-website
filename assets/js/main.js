@@ -1,9 +1,4 @@
-/**
-* Template Name: Vesperr - v3.0.3
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
   // Smooth scroll for the navigation menu and links with .scrollto classes
