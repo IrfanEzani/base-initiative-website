@@ -394,7 +394,7 @@ p {
   color: #866ddd;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started, .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -407,7 +407,7 @@ p {
   border: 2px solid #866ddd;
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover, .btn-get-started:hover {
   background: #866ddd;
   color: #fff;
 }
@@ -778,8 +778,14 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .icon-box:hover .title a, 
+.services .icon-box:hover .description, 
+.services .icon-box:hover .btn-get-started {
   color: #fff;
+}
+
+.services .icon-box:hover .btn-get-started {
+  border-color: white;
 }
 
 .services .icon-box:hover .icon {
@@ -789,6 +795,7 @@ section {
 .services .icon-box:hover .icon i {
   color: #B39EFF;
 }
+
 
 /*--------------------------------------------------------------
 # Features
