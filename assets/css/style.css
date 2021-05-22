@@ -146,7 +146,7 @@ p {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #111;
+  color: #3498db;
   text-decoration: none;
 }
 
