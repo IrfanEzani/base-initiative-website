@@ -146,12 +146,12 @@ p {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3498db;
+  color: #000;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background: #000;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
