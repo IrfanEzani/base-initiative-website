@@ -1089,6 +1089,8 @@ section {
 
 .faq .faq-item p {
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 /*--------------------------------------------------------------
