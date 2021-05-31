@@ -38,47 +38,7 @@ p {
 /*--------------------------------------------------------------
 # Loader
 --------------------------------------------------------------*/
-.spinner {
-  position: absolute;
-  top: 48%;
-  left: 48%;
-}
 
-.spinner > div {
-  width: 18px;
-  height: 18px;
-  background-color: #333;
-
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.spinner .bounce1 {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.spinner .bounce2 {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-  0%, 80%, 100% { -webkit-transform: scale(0) }
-  40% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bouncedelay {
-  0%, 80%, 100% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 40% { 
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-  }
-}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -428,7 +388,7 @@ p {
   width: 100%;
   height: 100%;
   margin: 70px 0 0 0;
-  background: radial-gradient(#1b1b1b1f, #1b1b1b18), url(../afaf.jpg);
+  background: radial-gradient(#27272721, #1a19192d), url(../afaf.jpg);
   background-position: bottom;
   background-size: cover;
 }
@@ -488,10 +448,14 @@ p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 430px) {
   #hero {
     height: 100vh;
+    background: linear-gradient(#e6e4e4b2, #f0f0f0c4), url(../afaf.jpg);
+    background-position: bottom;
+    background-size: cover;
   }
+
   #hero .animated {
     -webkit-animation: none;
     animation: none;

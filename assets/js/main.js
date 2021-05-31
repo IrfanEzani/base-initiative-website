@@ -2,16 +2,7 @@
 !(function($) {
   "use strict";
 
-  $(document).ready(function() {
-    //Preloader
-    preloaderFadeOutTime = 500;
-    function hidePreloader() {
-    var preloader = $('.spinner-wrapper');
-    preloader.fadeOut(preloaderFadeOutTime);
-    }
-    hidePreloader();
-    });
-    
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 15;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
