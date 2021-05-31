@@ -201,5 +201,6 @@
   $(window).on('load', function() {
     aos_init();
   });
-
+  const observer = lozad();
+  observer.observe();
 })(jQuery);
