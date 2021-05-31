@@ -35,6 +35,9 @@ p {
     scroll-behavior: auto;
   }
 }
+/*--------------------------------------------------------------
+# Loader
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -385,7 +388,7 @@ p {
   width: 100%;
   height: 100%;
   margin: 70px 0 0 0;
-  background: radial-gradient(#1b1b1b1f, #1b1b1b18), url(../afaf.jpg);
+  background: radial-gradient(#27272721, #1a19192d), url(../afaf.jpg);
   background-position: bottom;
   background-size: cover;
 }
@@ -445,10 +448,14 @@ p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 430px) {
   #hero {
     height: 100vh;
+    background: linear-gradient(#e6e4e4b2, #f0f0f0c4), url(../afaf.jpg);
+    background-position: bottom;
+    background-size: cover;
   }
+
   #hero .animated {
     -webkit-animation: none;
     animation: none;
