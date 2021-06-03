@@ -389,7 +389,7 @@ p {
   height: 100%;
   margin: 70px 0 0 0;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),  url(../pexels-photo-267885.png);
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 
