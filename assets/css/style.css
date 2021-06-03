@@ -119,11 +119,11 @@ p {
 
 @media (max-width: 768px) {
   #header {
-    background: #9DD8D2;
+    background: #3A2F5A;
   }
   #header .logo h1 a {
     font-size: 28px;
-    color: black;
+    color: white;
   }
 }
 
@@ -452,7 +452,7 @@ p {
 @media (max-width: 430px) {
   #hero {
     height: 100vh;
-    background: linear-gradient(#e6e4e4b2, #f0f0f0c4), url(../afaf.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../pexels-photo-267885.jpeg);
     background-position: bottom;
     background-size: cover;
   }
