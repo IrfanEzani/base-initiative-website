@@ -267,6 +267,7 @@ p {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  margin: 10px 0;
 }
 
 .mobile-nav-toggle i {
