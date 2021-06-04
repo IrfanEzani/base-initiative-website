@@ -953,8 +953,8 @@ section {
   font-size: 20px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
-  color: #888;
-  margin: 8px 0;
+  color: #000;
+  margin: 8px 0 16px 0;
 }
 
 .contact .social-links {
@@ -999,6 +999,7 @@ section {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
+  margin-top: 5px;
 }
 
 .contact .php-email-form .validate {
