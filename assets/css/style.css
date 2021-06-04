@@ -903,6 +903,38 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq .faq-item {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.faq .faq-item i {
+  color: #3A2F5A;
+  font-size: 24px;
+  float: left;
+  line-height: 0;
+  padding: 13px 0 0 0;
+  margin: 0;
+}
+
+.faq .faq-item h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 10px 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faq .faq-item p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+  
 
 /*--------------------------------------------------------------
 # Contact
@@ -922,25 +954,26 @@ section {
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #888;
+  margin: 8px 0;
 }
 
 .contact .social-links {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .contact .social-links a,
 .social-links a {
-  font-size: 36px;
+  font-size: 24px;
   display: inline-block;
   background: #fff;
   color: #3A2F5A;
   line-height: 1;
-  padding: 15.5px 0;
+  padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 72px;
-  height: 72px;
+  width: 44px;
+  height: 44px;
   transition: 0.3s;
   border: 1px solid transparent;
 }

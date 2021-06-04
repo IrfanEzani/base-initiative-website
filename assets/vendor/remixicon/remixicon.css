@@ -51,6 +51,7 @@
 .ri-youtube-fill:before { content: "\f2d4"; }
 .ri-instagram-fill:before { content: "\ee65"; }
 .ri-arrow-up-s-line:before { content: "\ea78"; }
+.ri-question-line:before { content: "\f045"; }
 
 /* 
 .ri-baidu-fill:before { content: "\ea8b"; }
@@ -1508,7 +1509,6 @@
 .ri-question-answer-fill:before { content: "\f042"; }
 .ri-question-answer-line:before { content: "\f043"; }
 .ri-question-fill:before { content: "\f044"; }
-.ri-question-line:before { content: "\f045"; }
 .ri-question-mark:before { content: "\f046"; }
 .ri-questionnaire-fill:before { content: "\f047"; }
 .ri-questionnaire-line:before { content: "\f048"; }
