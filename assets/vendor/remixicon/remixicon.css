@@ -1,12 +1,5 @@
 /*
-* Remix Icon v2.5.0
-* https://remixicon.com
-* https://github.com/Remix-Design/RemixIcon
-*
-* Copyright RemixIcon.com
-* Released under the Apache License Version 2.0
-*
-* Date: 2020-05-23
+
 */
 @font-face {
   font-family: "remixicon";
@@ -59,4 +52,14 @@
 .ri-focus-3-line:before { content: "\ed4c"; }
 .ri-external-link-line:before { content: "\ecaf"; }
 .ri-question-answer-line:before { content: "\f043"; }
+.ri-menu-line:before { content: "\ef3e"; }
+.ri-close-line:before { content: "\eb99"; }
+.ri-subtract-line:before { content: "\f1af"; }
+.ri-double-quotes-l:before { content: "\ec51"; }
+.ri-double-quotes-r:before { content: "\ec52"; }
+.ri-lightbulb-line:before { content: "\eea9"; }
+.ri-bar-chart-grouped-line:before { content: "\ea9b"; }
+.ri-book-2-line:before { content: "\ead3"; }
+
+
 

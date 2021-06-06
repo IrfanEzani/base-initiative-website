@@ -214,8 +214,8 @@ p {
 }
 
 .nav-menu .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
+  content: "\ea50";
+  font-family: remixicon;
   padding-left: 5px;
 }
 
@@ -236,7 +236,7 @@ p {
 
 .nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
-  font-family: IcoFont;
+  font-family: remixicon;
   position: absolute;
   right: 15px;
 }
@@ -332,15 +332,15 @@ p {
 }
 
 .mobile-nav .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
+  content: "\ea50";
+  font-family: remixicon;
   padding-left: 10px;
   position: absolute;
   right: 15px;
 }
 
 .mobile-nav .active.drop-down > a:after {
-  content: "\eaa1";
+  content: "\f1af";
 }
 
 .mobile-nav .drop-down > a {
@@ -414,7 +414,8 @@ p {
 }
 
 #hero .btn-get-started,
-.btn-get-started {
+.btn-get-started,
+#jpa .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -427,7 +428,7 @@ p {
   border: 2px solid #3A2F5A;
 }
 
-#hero .btn-get-started:hover
+#hero .btn-get-started:hover 
 {
   background: #3A2F5A;
   color: white;
@@ -437,6 +438,12 @@ p {
 .btn-get-started:hover {
   color: #fff;
   background: #9DD8D2;
+  border-color: transparent;
+}
+
+#jpa .btn-get-started:hover {
+  background: #3A2F5A;
+  color: white;
   border-color: transparent;
 }
 
@@ -848,7 +855,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #9DD8D221;
+  color: #999;
   font-size: 26px;
 }
 
@@ -1370,4 +1377,83 @@ header.masthead .post-heading .meta a {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.services .icon-box::before {
+  content: '';
+  position: absolute;
+  background: #dad0ff;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: #af9bf7;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #af9bf7;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a, .services .icon-box:hover .description {
+  color: #fff;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #af9bf7;
 }
